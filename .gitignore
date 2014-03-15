@@ -1,32 +1,15 @@
-var aux = true;
+lib-cov
+*. Semilla
+*. Log
+*. Csv
+*. Dat
+*. Cabo
+*. PID
+*. Gz
 
-for( var i = 1 ; i<=100 ; ++i)
-{
-    
-    if ( ( (i % 3) == 0) && ( (i % 5) == 0 ) )
-    {
-        alert("FizzBuzz");
-        aux = false;
-    }
-    else
-    {
-       if( (i % 3) == 0)
-       {
-        alert("Fizz");
-        aux = false;
-       }        
-       else
-       {
-           if((i % 5)== 0)
-           {
-               alert("Buzz");
-               aux = false; 
-           }
-       }
-    }
-    if(aux == true)
-    {
-        alert(i);
-    }
-    
-}
+PID
+registros
+resultados
+
+NPM-debug.log
+node_modules
